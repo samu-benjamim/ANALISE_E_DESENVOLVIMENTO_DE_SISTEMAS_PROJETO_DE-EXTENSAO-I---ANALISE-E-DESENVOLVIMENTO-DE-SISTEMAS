@@ -46,7 +46,7 @@ def visualizar():
     ocorrencias = c.fetchall()
     conn.close()
     
-    return render_template('visualizacao.html', ocorrencias=ocorrencias)
+    return render_template('visualizar.html', ocorrencias=ocorrencias)
 
 if __name__ == '__main__':
     app.run(debug=True)
